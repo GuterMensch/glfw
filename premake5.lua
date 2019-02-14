@@ -1,7 +1,7 @@
 -- windows only working premake file for glfw
 
 project "GLFW"
-	kind "StaticLib"
+	kind "StaticLib" -- static library
 	language "C"
 	
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
